@@ -1,0 +1,307 @@
+.navbar-brand
+{
+    color: #fed136 !important;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.8rem;
+
+
+}
+
+.items a
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.94rem;
+    font-weight: 100 !important;
+    letter-spacing: 1px;
+    margin-right: 7px;
+    color: #e6e6e6 !important;
+    transition: 0.5s;
+}
+
+.items a:hover
+{
+    color: #fed136 !important;
+}
+/*-------------------------------end of navbar----------------------*/
+#home
+{
+    height: 100vh;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 5rem;
+}
+
+#home h3
+{
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+#home h1
+{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+#home a
+{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/*---------------end header------------*/
+
+/*-----------------start new section--------------------*/
+
+#Experience
+{
+    margin-bottom: 6rem;
+}
+.words h3
+{
+    color: #002147;
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    margin-bottom: 2rem;
+}
+.contant
+{
+    position: relative;
+    transition: 0.5s;
+    transition-delay: 1s;
+    overflow: hidden;
+}
+
+.upper
+{
+    background-color: rgba(0, 33, 71, 0.7);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 90%;
+    margin: 1rem;
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    transition: 1s;
+
+     
+}
+
+.contant:hover .upper
+{
+    top:0px;
+}
+
+
+
+.upper a
+{
+    color: #fed136;
+}
+
+.low
+{
+    background-color: #fff;
+  font-family: "segoe ui light";
+  position: absolute;
+  bottom: 5px;
+  left: 1rem;
+  right: 1rem;
+  transition: 0.5s;
+}
+.contant:hover .low
+{
+    bottom:-7rem;
+}
+
+.low h4
+{
+    color: #002147;
+
+}
+.low h5
+{
+    font-family: "Poppins",sans-serif;
+    color: #fed136;
+    font-size: 0.9rem;
+}
+
+/*---------------------------start new section----------------------*/
+#Categories
+{
+    background-color:#f2f2f2 !important;
+}
+
+.four
+{
+  
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../img/1.jpg');
+  
+}
+.cover
+{
+    background-color: #337ab7;
+    height: 100%;
+    transition:all 1s;
+    
+}
+.cover:hover
+{
+    background-color: rgba(51, 122, 183 ,0.5);
+}
+
+.img2
+{
+    background-image: url(../img/2-.jpg);
+}
+.cover2
+{
+    background-color: #1ec1d9;
+}
+.cover2:hover
+{
+    background-color: rgba(30, 193, 217 ,0.5);
+}
+
+.img3
+{
+    background-image: url(../img/3.jpg);
+}
+.cover3
+{
+    background-color: #10c45c;
+}
+.cover3:hover
+{
+    background-color: rgba(16, 196, 92 ,0.5);
+}
+
+.img4
+{
+    background-image: url(../img/4-.jpg);
+}
+.cover4
+{
+    background-color: #47c58e;;
+}
+.cover4:hover
+{
+    background-color: rgba(71, 197, 142 ,0.5);
+}
+
+.img5
+{
+    background-image: url(../img/5-.jpg);
+}
+.cover5
+{
+    background-color: rgb(249, 189, 68);
+}
+.cover5:hover
+{
+    background-color: rgba(249, 189, 68, 0.5);
+}
+
+.img6
+{
+    background-image: url(../img/6.jpg);
+}
+.cover6
+{
+    background-color: rgb(233, 72, 174);
+}
+.cover6:hover
+{
+    background-color: rgba(233, 72, 174 ,0.5);
+}
+
+.img7
+{
+    background-image: url(../img/7.jpg);
+}
+.cover7
+{
+    background-color: rgb(232, 75, 58);
+}
+.cover7:hover
+{
+    background-color: rgba(232, 75, 58 ,0.5);
+}
+
+.img8
+{
+    background-image: url(../img/8.jpg);
+}
+.cover8
+{
+    background-color: rgb(146, 39, 143);
+}
+.cover8:hover
+{
+    background-color:rgba(146, 39, 143 ,0.5);
+}
+
+/*---------------------------------------------------------*/
+.cont
+{
+    position: relative;
+    background-color: #fff;
+}
+
+.transparnt
+{
+    background-color: rgba(254, 209, 54,0.9);
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.cont:hover .transparnt
+{
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------*/
+
+.end
+{
+    background-color: #212529 ;
+    background-image: url(../img/map-image.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.end h2
+{
+    color: #fff;
+    font-size: 3.4rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 3rem !important;
+}
+
+
+
+
+
+
+
